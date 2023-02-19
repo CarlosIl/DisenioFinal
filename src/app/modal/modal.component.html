@@ -1,0 +1,10 @@
+<div class="background">
+  <h2 mat-dialog-title>Alert</h2>
+  <div mat-dialog-content>
+    <p>Are you sure you want to continue?</p>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button mat-flat-button color="accent" (click)="onConfirmClick()">Yes</button>
+    <button mat-button mat-flat-button color="warn" mat-dialog-close cdkFocusInitial>No</button>
+  </div>
+</div>

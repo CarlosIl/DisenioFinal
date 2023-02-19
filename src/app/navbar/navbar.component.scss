@@ -1,0 +1,60 @@
+@import '../../styles.scss';
+@import '../../fonts.scss';
+
+@media screen and (min-width: 900px) {
+    nav {
+        display: flex;
+
+        button {
+            display: none;
+        }
+
+        .mat-toolbar {
+            background-color: map-get($DisenioFinal-primary, 700);
+        }
+
+        a {
+            text-decoration: none;
+            font-family: $titleFont;
+            font-size: 25px;
+            color: #000000;
+            display: inline;
+            padding: 15px;
+        }
+
+        h1{
+            font-family: $titleFont;
+            font-size: 40px;
+            padding-right: 80px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        display: flex;
+
+        .logo{
+            width: 100%;
+        }
+
+        h1{
+            font-family: $titleFont;
+            font-size: 40px;
+            padding-right: 80px;
+        }
+
+        button {
+            background-color: map-get($DisenioFinal-primary, 700);
+            color: #000000;
+        }
+
+        .mat-toolbar {
+            background-color: map-get($DisenioFinal-primary, 700);
+        }
+
+        .enlaces {
+            display: none;
+        }
+    }
+}

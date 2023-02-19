@@ -1,0 +1,76 @@
+@import '../../styles.scss';
+@import '../../fonts.scss';
+
+@media screen and (min-width: 900px) {
+    .container{
+        align-content: center;
+        margin: auto;
+        width: 70%;
+        video{
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        h2{
+            font-family: $contentFont;
+            font-size: 25px;
+        }
+        p{
+            font-family: $contentFont;
+            font-size: 18px;
+            padding-bottom: 20px;
+        }
+        pre{
+            font-family: $contentFont;
+            font-size: 18px;
+            padding-bottom: 20px;
+        }
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        .opening{
+            background-color: map-get($DisenioFinal-accent, 500);
+            width: 90%;
+            margin: auto;
+        }
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .container{
+        align-content: center;
+        margin: auto;
+        width: 90%;
+        video{
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        h2{
+            font-family: $contentFont;
+            font-size: 25px;
+        }
+        p{
+            font-family: $contentFont;
+            font-size: 18px;
+            padding-bottom: 20px;
+        }
+        pre{
+            font-family: $contentFont;
+            font-size: 18px;
+            padding-bottom: 20px;
+        }
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+        .opening{
+            background-color: map-get($DisenioFinal-accent, 500);
+            width: 90%;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+    }
+}

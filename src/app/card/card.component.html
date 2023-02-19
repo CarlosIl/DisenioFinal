@@ -1,0 +1,10 @@
+<mat-card class="example-card">
+    <mat-card-header>
+        <mat-card-title>{{name}}</mat-card-title>
+        <mat-card-subtitle><p>{{date}}</p></mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image srcset="../../assets/imgs/{{imgResp1}} 200w, ../../assets/imgs/{{imgResp2}} 767w, ../../assets/imgs/{{imgResp3}} 1135w, ../../assets/imgs/{{imgResp4}} 1400w" src="{{imgResp4}}" alt="Image of {{name}}">
+    <mat-card-content>
+        <p>{{desc}}</p>
+    </mat-card-content>
+</mat-card>

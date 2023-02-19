@@ -1,0 +1,22 @@
+<div class="background">
+    <h1>Login</h1>
+    <div class="container">
+        <form>
+            <div class="grid1">
+                <mat-form-field class="example-full-width">
+                    <mat-label>Email</mat-label>
+                    <input type="text" class="form-control" formControlName="email" matInput placeholder="Ex. pat@example.com" required>
+                </mat-form-field>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Password</mat-label>
+                    <input type="password" class="form-control" formControlName="pass" matInput required>
+                </mat-form-field>
+            </div>
+            <div class="grid2">
+                <button mat-raised-button color="accent" type="submit" (click)="openDialog()">Log In</button>
+                <button mat-raised-button color="accent" (click)="sinSubmit()" >Enter without login</button>
+            </div>
+        </form>
+    </div>
+    <br>
+</div>

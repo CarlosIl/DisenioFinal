@@ -1,0 +1,85 @@
+@import '../../styles.scss';
+@import '../../fonts.scss';
+
+@media screen and (min-width: 900px) {
+    h1{
+        font-family: $titleFont;
+        font-size: 40px;
+        padding-right: 80px;
+        text-align: center;
+    }
+    .background{
+        background-color: map-get($DisenioFinal-primary, 200);
+        height: 100%;
+    }
+    .container{
+        align-content: center;
+        margin: auto;
+        width: 50%;
+        .grid1{
+            display: grid;
+            grid-template-columns: auto;
+            mat-label{
+                font-family: $contentFont;
+                font-size: 18px;
+            }
+            input{
+                font-family: $contentFont;
+                font-size: 18px;
+            }
+        }
+        .grid2{
+            display: grid;
+            grid-template-columns: auto auto;
+            button{
+                width: 90%;
+                margin: auto;
+                color: #000000;
+                font-family: $contentFont;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    h1{
+        font-family: $titleFont;
+        font-size: 40px;
+        padding-right: 80px;
+        text-align: center;
+    }
+    .background{
+        background-color: map-get($DisenioFinal-primary, 200);
+        height: 100%;
+    }
+    .container{
+        align-content: center;
+        margin: auto;
+        width: 80%;
+        .grid1{
+            display: grid;
+            grid-template-columns: auto;
+            mat-label{
+                font-family: $contentFont;
+                font-size: 18px;
+            }
+            input{
+                font-family: $contentFont;
+                font-size: 18px;
+            }
+        }
+        .grid2{
+            display: grid;
+            grid-template-columns: auto;
+            button{
+                width: 90%;
+                margin: auto;
+                color: #000000;
+                font-family: $contentFont;
+                font-size: 18px;
+                margin-bottom: 20PX;
+            }
+        }
+    }
+}

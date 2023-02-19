@@ -1,0 +1,40 @@
+@import '../../styles.scss';
+@import '../../fonts.scss';
+
+@media screen and (min-width: 900px) {
+    .background{
+        background-color: map-get($DisenioFinal-accent, 200);
+        h2{
+            font-family: $contentFont;
+            font-size: 25px;
+        }
+        p{
+            font-family: $contentFont;
+            font-size: 18px;
+        }
+        button{
+            color: #000000;
+            font-family: $contentFont;
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .background{
+        background-color: map-get($DisenioFinal-accent, 200);
+        h2{
+            font-family: $contentFont;
+            font-size: 25px;
+        }
+        p{
+            font-family: $contentFont;
+            font-size: 18px;
+        }
+        button{
+            color: #000000;
+            font-family: $contentFont;
+            font-size: 18px;
+        }
+    }
+}
